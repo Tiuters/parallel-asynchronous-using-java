@@ -14,4 +14,13 @@ public class Product {
     private ProductInfo productInfo;
     @NonNull
     private Review review;
+
+    @Override
+    public String toString() {
+        return "\nProduct{" +
+                "\nproductId='" + productId + '\'' +
+                ", \nproductInfo=" + productInfo +
+                ", \nreview=" + review +
+                '}';
+    }
 }
